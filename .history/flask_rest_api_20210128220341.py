@@ -26,7 +26,7 @@ def home():
         response['trip'] = find_population(lat, lng, start_time, time, budget)
 
         # Return the JSON object
-        return json.dumps(response, indent=4)
+        return json.dumps(response)
 
 
 if __name__ == '__main__':
