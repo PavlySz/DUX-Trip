@@ -107,7 +107,6 @@ def find_population(lat, lon, startTime, time, budget):
         }
     )
     print(f'[DEBUG] Program 1: {prog1}')
-
     for i in range(3):
         copy = indcies[1:]
         random.shuffle(copy)
@@ -120,7 +119,6 @@ def find_population(lat, lon, startTime, time, budget):
                 "totalmoney": float(totalmoney)
             }
         )
-
     print(f'[DEBUG] Programs list: {programs_list}')
     return programs_list
 

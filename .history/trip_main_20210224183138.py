@@ -120,7 +120,7 @@ def find_population(lat, lon, startTime, time, budget):
                 "totalmoney": float(totalmoney)
             }
         )
-
+        
     print(f'[DEBUG] Programs list: {programs_list}')
     return programs_list
 

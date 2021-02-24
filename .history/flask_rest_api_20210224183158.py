@@ -5,6 +5,8 @@ from flask import Flask, request
 
 app = Flask(__name__, template_folder="templates")
 
+start_time = 10    # start time: 9:00AM
+
 @app.route("/", methods=['GET', 'POST'])
 
 def home():

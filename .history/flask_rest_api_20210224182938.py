@@ -5,6 +5,8 @@ from flask import Flask, request
 
 app = Flask(__name__, template_folder="templates")
 
+start_time = 10    # start time: 9:00AM
+
 @app.route("/", methods=['GET', 'POST'])
 
 def home():
@@ -15,7 +17,7 @@ def home():
 
     if request.method == 'POST':
         # Read items from POST request
-        start_time = int(data['start_time'])
+        # start_time = int(data['start_time'])
         budget = int(data['budget'])
         time = int(data['time'])
         lat = float(data['lat'])
