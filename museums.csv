@@ -1,6 +1,6 @@
 about,address,firstTag,image,latitude,longitude,name,overallrate,rate,secondTag,duration(hour),open,close,price
 ,"1 El Emam St., | ,El Fustat,, ,Cairo 11511, ,Egypt",Museums,https://media-cdn.tripadvisor.com/media/photo-s/0e/8e/1f/58/plates-and-tiles.jpg,30.007196,31.235327,Foustat Traditional Crafts Center,"
-7 reviews",4.5,History Museums,0.3,9,18,70
+7 reviews",4.5,History Museums,0.3,9,18,25
 ,"Al Fustat Street,, ,Cairo 11511, ,Egypt",Museums,https://media-cdn.tripadvisor.com/media/photo-s/0e/7c/46/2f/national-museum-of-egyptian.jpg,30.007747,31.248562,National Museum of Egyptian Civilization NEMC,22 reviews,4,Science Museums,2,9,17,20
 ,"Cairo, ,Egypt",Museums,https://media-cdn.tripadvisor.com/media/photo-s/0e/9e/33/b4/the-october-war-panorama.jpg,30.074827,31.306326,October War Panorama,"
 22 reviews",4,History Museums,3,9,17,20
@@ -35,16 +35,8 @@ about,address,firstTag,image,latitude,longitude,name,overallrate,rate,secondTag,
 10 reviews",4.5,History Museums,1,9,17,20
 ,"Salah El Din Sq. Qalaa,, ,Cairo 11511, ,Egypt",Museums,https://media-cdn.tripadvisor.com/media/photo-s/0a/71/66/67/img-20160204-195001-largejpg.jpg,30.03101,31.25699,Mostafa Kamel Museum,"
 3 reviews",3,History Museums,1,9,17,10
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
 ,"5 El Tahrir St., El Gezirah,, ,Cairo 11511, ,Egypt",Museums,https://media-cdn.tripadvisor.com/media/photo-s/17/5f/dc/b1/mahmoud-mokhtar-museum.jpg,30.10258,31.2543,Mahmoud Mokhtar Museum,4 reviews,3.5,Art Museums,0.5,9,17,17
 "Located in the palace of Prince Ibrahim in Zamalek, this museum offers a splendid collection of ceramics acquired from different Islamic countries.","Prince Ibrahim's Palace,, ,Cairo 11511, ,Egypt",Museums,https://media-cdn.tripadvisor.com/media/photo-s/0c/16/5c/e3/photo7jpg.jpg,30.0552,31.2257,Museum of Islamic Ceramics,12 reviews,3,Art Museums,1,9,17,37
-,,,,,,,,,,,,,
-,"44 Sherif Street,, ,Cairo 11511, ,Egypt",Shopping,https://static.tacdn.com/img2/brand_refresh/application_icons/post-image-550x370.png,30.0943,31.32272,Lenhert & Landrock,2 reviews,4,,0.3,9,23,30
-,"Ain Helwan, | ,Helwan,, ,Cairo 11511, ,Egypt",Museums,https://media-cdn.tripadvisor.com/media/photo-s/08/68/d2/3d/helwan-wax-museum.jpg,29.8603,31.3258,Helwan Wax Museum,4 reviews,4,Art Museums,0.3,9,17,14
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
 ,"Munira Kasr el-Eini,, ,Cairo 11511, ,Egypt",Museums,https://static.tacdn.com/img2/brand_refresh/application_icons/post-image-550x370.png,30.0375,31.2378,House of the People Beit El-Umma Museum,2 reviews,4.5,History Museums,0.45,9,17,18
 ,"Citadel Historic Area,, ,Cairo 11511, ,Egypt",Museums,https://media-cdn.tripadvisor.com/media/daodao/photo-s/03/66/a5/aa/el-gawhara-palace.jpg,30.02745,31.22988,El Gawhara (Jewel) Palace Museum,4 reviews,4,History Museums,0.5,9,17,23
 ,"27 El Seyoufeya St. El Khalifa,, ,Cairo 11511, ,Egypt",Museums,https://media-cdn.tripadvisor.com/media/photo-s/12/9d/af/41/el-amir-taz-palace.jpg,30.032202,31.253353,El Amir Taz Palace,10 reviews,4,History Museums,0.45,9,17,10
@@ -63,7 +55,7 @@ about,address,firstTag,image,latitude,longitude,name,overallrate,rate,secondTag,
 ,"East of Sharia Salah Salem,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/0a/06/38/c3/city-of-the-dead-northern.jpg,30.0467,31.2764,City of the Dead (Northern Cemetery),192 reviews,4,,2,9,17,22
 ,"Cairo, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/10/cb/d8/2a/midan-hussein.jpg,30.047228,31.26278,Midan Hussein,104 reviews,4,,2,9,17,17
 ,"Cairo, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/0a/44/39/0f/overall-view.jpg,30.010132,31.232883,Mosque of Amr Ibn El-Aas,132 reviews,4.5,,1,9,17,50
-,"Al-Haram Dahshur,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/0a/19/95/8e/north-pyramid.jpg,29.809534,31.206293,North Pyramid (Piramide Roja),70 reviews,4.5,,2.5,9,17,10
+,"Al-Haram Dahshur,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/0a/19/95/8e/north-pyramid.jpg,29.809534,31.206293,North Pyramid (Piramide Roja),70 reviews,4.5,,1,9,17,10
 ,"Coptic Cairo,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/03/f7/42/43/ben-ezra-synagogue.jpg,30.005924,31.230991,Ben Ezra Synagogue,206 reviews,4,,2,9,17,19
 ,"Cairo, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/10/52/cd/55/89886102-largejpg.jpg,30.090189,31.327604,Heliopolis,"
 159 reviews",4.5,,1,9,17,45
@@ -73,11 +65,9 @@ about,address,firstTag,image,latitude,longitude,name,overallrate,rate,secondTag,
 ,"Mit Rahina Museum,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/0e/e1/74/b5/koniglicher-kopf-und.jpg,29.84955,31.254917,Alabaster Sphinx,227 reviews,4.5,,2,9,17,15
 ,"Old Cairo,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/12/4f/82/94/detalle.jpg,30.006353,31.230633,Church of St Sergius and Bacchus,143 reviews,4.5,,1,9,17,14
 ,"Al Abageyah, | ,Qism El-Khalifa,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/15/95/bf/32/muhammad-ali-mosque.jpg,30.0291,31.25982,Mosque of Muhammad Ali,"2,528 reviews",4.5,,2,9,17,15
-,"Shar'a Mari Girgis Street,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/0f/4b/d2/a6/caption.jpg,30.005157,31.230167,"Hanging Church (El Muallaqa, Sitt Mariam, St Mary)",736 reviews,4.5,,3,9,17,15
+,"Shar'a Mari Girgis Street,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/0f/4b/d2/a6/caption.jpg,30.005157,31.230167,"Hanging Church (El Muallaqa, Sitt Mariam, St Mary)",736 reviews,4.5,,0.5,9,17,15
 ,"Al-Basatin, off Al-Saliba Street,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/14/2e/71/0d/mosque-of-ibn-tulun.jpg,30.02869,31.249393,Mosque of Ibn Tulun,377 reviews,4.5,,1,9,17,30
 ,"Maydan Salah al-Din,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/12/09/4d/7d/caption.jpg,30.0323,31.256233,Mosque and Madrasa of Sultan Hassan,416 reviews,4.5,,1.5,9,17,25
-,"26th of July Street,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/0e/ad/b0/1f/amazing-hamza-amira-concert.jpg,30.06042,31.22137,Assawi Wheel,"
-10 reviews",4.5,,3,9,17,20
 ,"El Maraashly Street,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/0e/ea/35/34/st-mary-s-coptic-orthodox.jpg,30.104807,31.315539,St. Mary's Coptic Orthodox Church,9 reviews,4.5,,,9,17,20
 ,"Mari Girgis Street,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/16/7d/db/29/caption.jpg,30.006802,31.230036,St. Mercurius Church (Abu Seifien),9 reviews,4.5,,1.5,9,17,10
 ,"Cairo, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/09/10/90/73/gray-mosque-el-aqmar.jpg,30.051711,31.261928,Gray Mosque (El-Aqmar Mosque),16 reviews,4,,,9,17,15
@@ -87,31 +77,25 @@ about,address,firstTag,image,latitude,longitude,name,overallrate,rate,secondTag,
 ,"154 Al Moez Ldin Allah Al Fatmi, | ,154 المعز لدين الله الفاطمي,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/17/17/b3/a5/ornate-detail.jpg,30.055714,31.263385,Bab al-Futuh,25 reviews,4,,,9,17,10
 ,"Cleopatra Street, | ,Heliopolis,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://static.tacdn.com/img2/brand_refresh/application_icons/post-image-550x370.png,30.09235,31.32923,St. Mark's Coptic Orthodox Church,18 reviews,4.5,,1.5,9,17,5
 ,"El-Gamaleya, Qism El-Gamaleya,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/09/a2/2d/40/qaraoun-madrasa-and-mausoleum.jpg,30.049404,31.260967,Qalawun Complex,15 reviews,4.5,,2,9,17,15
-,"1122 Abd El-Hameed Badawi, | ,Street Extension, Masr Al Nour Building,Sheraton Heliopolis ,Cairo , Egypt,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/17/38/33/40/phi-salt-cave.jpg,30.105165,31.376898,Phi Salt Cave,"
- 7 reviews",5,,1.75,9,17,25
-,"Al Haram Str.,, ,Giza 12611, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/06/7e/7d/2c/pyramids-of-giza.jpg,29.9773,31.132498,Pyramids of Giza,"7,782 reviews",4.5,,2.5,9,17,30
+,"Al Haram Str.,, ,Giza 12611, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/06/7e/7d/2c/pyramids-of-giza.jpg,29.9773,31.132498,Pyramids of Giza,"7,782 reviews",4.5,,2,9,17,30
 ,"50 Kasr Al Nile,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/1a/9c/31/06/photo0jpg.jpg,30.04948,31.24522,Qasr El Nil Bridge,"
 2 reviews",3,,1.25,9,17,30
 ,"Darb Kirmiz, | ,Fatimid Cairo,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/18/fa/11/56/the-great-reception-hall.jpg,30.05044,31.26185,Palace of Amir Beshtak,"
 5 reviews",3,,2,9,17,25
-,,,,,,,,,,0.3,9,17,30
 ,"6 Gaber Ibn Hayyan, | ,Dokki,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://static.tacdn.com/img2/brand_refresh/application_icons/post-image-550x370.png,30.03195,31.21147,German Evangelical Church,1 review,4,,2,9,17,45
 ,"3 Mohammed Abdu St,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://static.tacdn.com/img2/brand_refresh/application_icons/post-image-550x370.png,30.17655,31.44337,El Set Wasela House,"
 1 review",5,,2,9,17,15
 ,"Al Saliba,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/16/78/49/fd/madrasa-on-the-left-side.jpg,30.04334,31.33311,Mosque and Khanqah of Shaykhu,"
 1 review",4,,1,9,17,20
-,"Nahdet Masr st./ Charles De Gaulle st.,, ,Giza, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/16/4c/b6/37/caption.jpg,30.02186,31.21727,The Egyptian Renaissance Sculpture,6 reviews,3.5,,1,9,17,15
 ,"Oruba Road,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/16/67/b2/32/2.jpg,30.09842,31.34768,Obelisk of Ramses II,3 reviews,3.5,,0.75,9,17,5
 ,"El-Gamaleya, | ,Bayn al-Qasrayn, al-Mu'izz street,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/18/fa/6d/1a/the-gilded-and-painted.jpg,30.050064,31.26119,Madrasa of Sultan Barquq,"
  1 review",5,,1,9,17,14
 ,"Mohammed Abd El-Wahab, | ,Zamalek,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://static.tacdn.com/img2/brand_refresh/application_icons/post-image-550x370.png,30.05339,31.22646,Aisha Fahmi Palace,1 review,5,,2,9,17,17
 ,"Facing Bab Zuwaila, | ,Islamic Cairo District,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/03/8a/48/4c/salah-talay-mosque.jpg,30.17176,31.44877,al-Salih Tala'i Mosque,"
 4 reviews",4,,1,9,17,10
-,"Cairo EG,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://static.tacdn.com/img2/brand_refresh/application_icons/post-image-550x370.png,30.050451,31.23981,Musafirkhana Palace,0 reviews,0,,2,9,17,10
 ,"El Darb El Asfar Alley, | ,Azhar,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://static.tacdn.com/img2/brand_refresh/application_icons/post-image-550x370.png,30.05198,31.26277,Sabil Qitas,0 reviews,0,,1,9,17,10
 ,"Cleopatra Street, | ,Heliopolis,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://static.tacdn.com/img2/brand_refresh/application_icons/post-image-550x370.png,30.09235,31.32923,Protestant Church,0 reviews,0,,1,9,17,25
 ," | ,It has no reviews and you already have a well-reviewed entry for the cave church,, ,Cairo, ,Egypt",Sights & Landmarks,https://static.tacdn.com/img2/brand_refresh/application_icons/post-image-550x370.png,30.035286,31.27628,Cave chursh,0 reviews,0,,1.25,9,17,15
-,"19 Om El Gholam st,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://static.tacdn.com/img2/brand_refresh/application_icons/post-image-550x370.png,30.1559,31.35092,Beit Hosn,0 reviews,0,,0.75,9,17,10
 ,"Saliba,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://static.tacdn.com/img2/brand_refresh/application_icons/post-image-550x370.png,30.07282,31.23667,Amir Sarghatmish Mosque and Madrasa,0 reviews,0,,1.5,9,17,9
 ,"Haret Al Room,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://static.tacdn.com/img2/brand_refresh/application_icons/post-image-550x370.png,30.0291,31.25982,Sabil of Muhammad Ali Pasha,0 reviews,0,,0.25,9,17,15
 ,"Sheikhoun Street,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://static.tacdn.com/img2/brand_refresh/application_icons/post-image-550x370.png,30.03875,31.24989,Sabil-Kuttab of Sultan Qayt Bay,0 reviews,0,,0.25,9,17,5
@@ -120,13 +104,8 @@ about,address,firstTag,image,latitude,longitude,name,overallrate,rate,secondTag,
 4 reviews",4,,1,9,17,14
 ,"Gameaa Al Azhar,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/17/02/7e/04/photo0jpg.jpg,30.04618,31.26192,Mosque of Abo El Dahab,"
 1 review",3,,1,9,17,13
-,"1km North East of Sahure's Pyramid,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/17/e6/10/fb/view-from-the-obelisk.jpg,29.99658,31.24894,Sun Temples of Abu Ghurab,"
-1 review",1,,2.25,9,17,15
-,"Wadi el-Natrun,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/06/f6/09/c0/deir-amba-bischoi.jpg,29.96203,31.42708,Deir Amba Bischoi,"
-3 reviews",4.5,,1,9,17,27
 ,"Features Animals,Cairo University Street,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/17/27/66/56/caption.jpg,30.04475,31.24561,Orman Park,"
 2 reviews",2,,1.5,9,17,15
-,"Al Ahram,, ,Giza 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/17/77/7a/c3/photo0jpg.jpg,29.972387,31.128283,Menkaure Pyramid,297 reviews,4.5,,1,9,17,17
 ,"Muizz Street,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/16/f0/ad/a0/photo1jpg.jpg,30.07206,31.3711,Mosque-Sabil of Sulayman Agha al-Silahdar,"
 3 reviews",4.5,,1,9,17,16
 ,"Al Fustat, | ,Khan el Kahlili Market Area,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/09/fd/fa/8d/photo3jpg.jpg,30.0037,31.23641,Bab al-Azab,"
@@ -135,10 +114,8 @@ about,address,firstTag,image,latitude,longitude,name,overallrate,rate,secondTag,
 4 reviews",4.5,,1,9,17,14
 ,"Al Giza Desert,, ,Giza, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/15/61/75/6e/visita-la-piramide-escalonada.jpg,29.952984,31.14347,Saqqara (Sakkara) Pyramids,"3,013 reviews",4.5,,1.5,9,17,16
 ,"36 Al Mashhad Al Husseini,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/17/ed/85/e1/al-emam-al-hussein-mosque.jpg,30.03689,31.24763,Al-Hussein Mosque,10 reviews,4,,1,9,17,17
-,"Al Haram,, ,Giza, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/16/85/79/c8/the-pyramid-of-khafre.jpg,29.975899,31.130728,Khafre's Pyramid,"1,500 reviews",4.5,,1,9,17,15
 ,"Near the Roman Fortress,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/0a/45/3a/0a/exterior-of-the-orthodox.jpg,30.07151,31.25893,Church of St. Barbara,27 reviews,4.5,,1,9,17,15
 ,"Passage Inside Salah Al Din,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/1a/bf/52/7f/caption.jpg,30.02934,31.26055,Madrassa of Al-Nasir Muhammad,2 reviews,4,,1,9,17,15
-,"Al-Haram,, ,Giza, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/01/89/3b/fa/sphinx-von-gizeh.jpg,29.97527,31.137568,Great Sphinx,"3,953 reviews",4.5,,1,9,17,15
 ,"South of the Step Pyramid, | ,Saqqara,, ,Saqqara 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/0a/f2/50/81/ruined-pyramid-of-unas.jpg,30.00186,31.16848,Pyramid of Unas,58 reviews,4.5,,0.5,9,17,16
 ,"Coptic Cairo,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/13/31/76/50/20180606-090300-001-largejpg.jpg,30.00574,31.229845,Fort of Babylon,49 reviews,4,,2.5,9,17,18
 ,"Darb el Ahmar,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/0e/ab/60/5a/bab-zuweila.jpg,30.042797,31.257696,Bab Zuweila,33 reviews,4.5,,1,9,17,33
@@ -148,6 +125,6 @@ about,address,firstTag,image,latitude,longitude,name,overallrate,rate,secondTag,
 ,"Cairo, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/11/1b/f9/20/photo6jpg.jpg,30.033144,31.257345,Al Rifai Mosque,157 reviews,4.5,,1,9,17,70
 ,"Mohammed Abdou, | ,El-Darb El-Ahmar,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/15/8c/25/4b/view-from-court-yard.jpg,30.04569,31.262688,Al-Azhar Mosque,349 reviews,4.5,,2,9,17,15
 ,"Cairo, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/11/2a/80/2c/aaaa.jpg,30.006334,31.230333,Coptic Cairo,"1,977 reviews",4.5,,4,9,17,17
-,"Al Moez Ldin Allah Al Fatmi,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/12/13/ea/88/sharia-al-mu-izz-li-din.jpg,30.049896,31.2613,Sharia Al Mu'izz Li-Din Allah,252 reviews,4.5,,2.5,9,17,75
+,"Al Moez Ldin Allah Al Fatmi,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/12/13/ea/88/sharia-al-mu-izz-li-din.jpg,30.049896,31.2613,Sharia Al Mu'izz Li-Din Allah,252 reviews,4.5,,1.5,9,17,75
 ,"El-Orouba Street, | ,Heliopolis,, ,Cairo 11511, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/0b/6f/69/3f/img-20160529-wa0011-largejpg.jpg,30.09111,31.33425,Baron Palace,76 reviews,4,,1.5,9,17,60
 ,"Cairo 11655, ,Egypt",Sights & Landmarks,https://media-cdn.tripadvisor.com/media/photo-s/07/15/11/65/memphis-and-sakkara.jpg,29.869133,31.217186,Memphis and Sakkara,848 reviews,4.5,,2,9,17,34
