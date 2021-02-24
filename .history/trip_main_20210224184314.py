@@ -28,11 +28,9 @@ def Program(array, Startpoint, startTime, time, budget):
 
     while True:
         if (i < 20):    # length array
-            # print('i')
             # and places[array[i]][2] >= 3
             # check the start time of the place
             if places[array[i]][5] >= startTime:
-                # print('entered if')
                 totalhours += places[array[i]][3]
                 totalbudget += places[array[i]][4]
 
@@ -53,7 +51,7 @@ def Program(array, Startpoint, startTime, time, budget):
                 continue
             if totalhours >= totaltime or totalbudget >= neddedbudget:
                 break
-            # print(program)
+    print('.')
     return program, totalhours, totalbudget
     # print("Your program sir is : \n", program)
     # print("the total hours of your program is :", round(totalhours, 2))
@@ -89,9 +87,6 @@ tree = kdtree.KDTree(x, leafsize=50)    # leafsize => optional
 
 
 def find_population(lat, lon, startTime, time, budget):
-    if startTime > 9:
-        startTime = 9
-
     programs_list=[]
     time = time
     budget = budget
@@ -103,7 +98,7 @@ def find_population(lat, lon, startTime, time, budget):
     # print('Closest: \n ', closest)
     #get the indexes of the nearets places in the Xcel sheet
     indcies = closest[1]
-    prog1, totalhours, totalmoney = Program(indcies, cartesian_coord, startTime, time, budget)
+    prog1, totalhours, totalmoney= Program(indcies, cartesian_coord, startTime, time, budget)
     programs_list.append(
         {
             "program":prog1,
@@ -111,7 +106,6 @@ def find_population(lat, lon, startTime, time, budget):
             "totalmoney":float(totalmoney)
         }
     )
-
     print(f'[DEBUG] Program 1: {prog1}')
 
     for i in range(3):
@@ -143,7 +137,7 @@ long = 31.235964
 
 if __name__ == '__main__':
     # this result is the ouput
-    result = find_population(lat, long, 999, time, budget)
+    result = find_population(lat, long, 9, time, budget)
     print(result)
 
 #output is a list conatin 5 programs each program(type:list of {}),total hours,total money
@@ -156,4 +150,5 @@ if __name__ == '__main__':
 #     print(result[0]['program'][0]['From'])
 # #if you want to access the total hours of program and the same for total money
 #     print(result[0]['totalhours'])
+
 

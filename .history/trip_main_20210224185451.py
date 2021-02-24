@@ -26,13 +26,12 @@ def Program(array, Startpoint, startTime, time, budget):
     totaltime=time
     neddedbudget=budget
 
+    if s
     while True:
         if (i < 20):    # length array
-            # print('i')
             # and places[array[i]][2] >= 3
             # check the start time of the place
-            if places[array[i]][5] >= startTime:
-                # print('entered if')
+            if places[array[i]][5] <= startTime:
                 totalhours += places[array[i]][3]
                 totalbudget += places[array[i]][4]
 
@@ -53,7 +52,7 @@ def Program(array, Startpoint, startTime, time, budget):
                 continue
             if totalhours >= totaltime or totalbudget >= neddedbudget:
                 break
-            # print(program)
+    print('.')
     return program, totalhours, totalbudget
     # print("Your program sir is : \n", program)
     # print("the total hours of your program is :", round(totalhours, 2))
@@ -89,9 +88,6 @@ tree = kdtree.KDTree(x, leafsize=50)    # leafsize => optional
 
 
 def find_population(lat, lon, startTime, time, budget):
-    if startTime > 9:
-        startTime = 9
-
     programs_list=[]
     time = time
     budget = budget

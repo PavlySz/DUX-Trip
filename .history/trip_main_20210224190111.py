@@ -89,8 +89,8 @@ tree = kdtree.KDTree(x, leafsize=50)    # leafsize => optional
 
 
 def find_population(lat, lon, startTime, time, budget):
-    if startTime > 9:
-        startTime = 9
+    # if startTime < 9:
+    #     startTime = 9
 
     programs_list=[]
     time = time
