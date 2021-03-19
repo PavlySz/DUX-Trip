@@ -139,8 +139,8 @@ def find_population(lat, lon, startTime, time, budget, global_price_index):
         programs_list.append(
             {
                 "program": prog1,
-                "totalhours": float(totalhours),
-                "totalmoney": float(totalmoney)
+                "totalHours": float(totalhours),
+                "totalMoney": float(totalmoney)
             }
         )
 

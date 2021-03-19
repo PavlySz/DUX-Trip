@@ -48,8 +48,8 @@ def remove_place(global_price, program, index):
 
     # Get info of first three places (from, to, name, rating, cost)
     for nearest_place in nearest_places:
-        dicc = {'From': '', 'To': '', 'you will visit': '',
-                'rating of this place is ': '', 'The cost is ': ''}
+        dicc = {'from': '', 'to': '', 'visit': '',
+                'rating': '', 'cost': ''}
 
         nearest_place_info = data[data['name'] == nearest_place]
 #         print(f'[DEBUG] Nearest place info: {nearest_place_info}')
@@ -57,11 +57,11 @@ def remove_place(global_price, program, index):
         rating = nearest_place_info['rate'].values[0]
         cost = nearest_place_info[global_price].values[0]
 
-        dicc['From'] = str(start_time)
-        dicc['To'] = str(float(start_time) + float(duration))
-        dicc['you will visit'] = nearest_place
-        dicc['rating of this place is '] = str(rating)
-        dicc['The cost is '] = str(cost)
+        dicc['from'] = str(start_time)
+        dicc['to'] = str(float(start_time) + float(duration))
+        dicc['visit'] = nearest_place
+        dicc['rating'] = str(rating)
+        dicc['cost'] = str(cost)
 
         alternate_places.append(dicc)
 
