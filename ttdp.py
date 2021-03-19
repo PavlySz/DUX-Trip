@@ -33,7 +33,7 @@ secondes=set(x for lst in response.json()['durations'] for x in lst)
 print(secondes)
 
 places=[]
-data = pd.read_csv('./museums.csv')
+data = pd.read_csv('./museums1.csv')    # museums
 
 #store all the data in places array
 for i in range(len(data)):
@@ -42,10 +42,12 @@ for i in range(len(data)):
     lat = data.iat[i, 4]
     rate = data.iat[i, 8]
     dur = data.iat[i, 10]
-    price = data.iat[i, 13]
+    price = data.iat[i, 16]    # 13
     endTime = data.iat[i, 12]
+    image = data.iat[i, 3]
+
     coordinates = [lat, long]
-    image=data.iat[i,3]
+
     place = (name, coordinates, rate, dur, price, endTime,image)
 
     places.append(place)

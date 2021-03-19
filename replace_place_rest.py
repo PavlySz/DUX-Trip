@@ -1,12 +1,11 @@
 '''REST API for DUX Trip'''
 import json
 from flask import Flask, request
-from trip_main import find_population
+from replace_place import remove_place
 
 app = Flask(__name__, template_folder="templates")
 
 @app.route("/", methods=['GET', 'POST'])
-
 
 def home():
     '''Home page // only page'''
@@ -16,36 +15,29 @@ def home():
 
     if request.method == 'POST':
         # Read items from POST request
-        start_time = int(data['start_time'])
-        budget = int(data['budget'])
-        time = int(data['time'])
-        lat = float(data['lat'])
-        lng = float(data['lng'])
+        program = data['program']
         age = data['age']
         nationality = data['nationality']
-
-        print(f'Debug Age: {age}')
-        print(age == 'adult')
-        print(nationality == 'egyptian')
-        print(f'Debug nationality: {nationality}')
+        index_to_remove = data['index']
 
         if age == 'adult' and nationality == 'foreigner':
-            global_price = 16    # 'foreigner'
+            global_price = 'foreigner'
         elif age == 'adult' and nationality == 'egyptian':
-            global_price = 14    # 'egyptian and arab'
+            global_price = 'egyptian and arab'
         elif age == 'student' and nationality == 'foreigner':
-            global_price = 15    # 'egyptian and arab student'
+            global_price = 'egyptian and arab student'
         elif age == 'student' and nationality == 'foreigner':
-            global_price = 17    # 'foreigner student'
+            global_price = 'foreigner student'
         else:
-            global_price = 16    # 'foreigner'
+            global_price = 'foreigner'
+
 
         # Get the response i.e. suggested programs
-        response['trip'] = find_population(lat, lng, start_time, time, budget, global_price)
+        response['trip'] = remove_place(global_price, program, index_to_remove)
 
         # Return the JSON objects
         return json.dumps(response, indent=4)
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    app.run(debug=True, port=8000)

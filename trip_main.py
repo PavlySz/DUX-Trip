@@ -4,6 +4,7 @@ import pandas as pd
 # from scipy import spatial
 import kdtree as kdtree
 
+
 # To convert the lat and long to distance
 def cartesian(latitude, longitude, elevation=0):
     # Convert to radians
@@ -12,10 +13,8 @@ def cartesian(latitude, longitude, elevation=0):
     return (latitude, longitude)
 
 
-places = []
-data = pd.read_csv('museums.csv')
 
-def Program(array, Startpoint, startTime, time, budget):
+def Program(array, Startpoint, startTime, time, budget, places):
     programs_list=[]
     program = []
     i = 0
@@ -39,11 +38,11 @@ def Program(array, Startpoint, startTime, time, budget):
                 # To add: traffic time
                 program.append(
                     {
-                        "From": f'{startTime}',
-                        "To": f"{round(startTime + places[array[i]][3], 2)}",
-                        "you will visit": f"{places[array[i]][0]}",
-                        "rating of this place is ": f"{places[array[i]][2]}",
-                        "The cost is ": f"{places[array[i]][4]}",
+                        "from": f'{startTime}',
+                        "to": f"{round(startTime + places[array[i]][3], 2)}",
+                        "visit": f"{places[array[i]][0]}",
+                        "rating": f"{places[array[i]][2]}",
+                        "cost": f"{places[array[i]][4]}",
                      }
                 )
                 #to change the startTime value
@@ -62,33 +61,44 @@ def Program(array, Startpoint, startTime, time, budget):
 
 ######################################################
 
-# store all the data in places array
-for i in range(len(data)):
-    lat = data.iat[i, 4]
-    lng = data.iat[i, 5]
-    name = data.iat[i, 6]
-    rate = data.iat[i, 8]
-    dur = data.iat[i, 10]
-    price = data.iat[i, 13]
-    endTime = data.iat[i, 12]
-    coordinates = [lat, lng]
-    cartesian_coord = cartesian(*coordinates)
+def get_places(global_price_index):
+    places = []
+    data = pd.read_csv('museums1.csv')
 
-    place = (name, cartesian_coord, rate, dur, price, endTime)
-    places.append(place)
+    print('global price index: ', global_price_index)
 
+    # store all the data in places array
+    for i in range(len(data)):
+        lat = data.iat[i, 4]
+        lng = data.iat[i, 5]
+        name = data.iat[i, 6]
+        rate = data.iat[i, 8]
+        dur = data.iat[i, 10]
+        price = data.iat[i, global_price_index]
+        endTime = data.iat[i, 12]
+        coordinates = [lat, lng]
+        cartesian_coord = cartesian(*coordinates)
 
-# build the kTree depending on the lat and lng
-x = []
-for index in range(len(places)):
-    lat = places[index][1][0]
-    lng = places[index][1][1]
-    f = (lat, lng)
-    x.append(f)
-tree = kdtree.KDTree(x, leafsize=50)    # leafsize => optional
+        place = (name, cartesian_coord, rate, dur, price, endTime)
+        places.append(place)
+    
+    return places
 
 
-def find_population(lat, lon, startTime, time, budget):
+def get_tree(places):
+    # build the kTree depending on the lat and lng
+    x = []
+    for index in range(len(places)):
+        lat = places[index][1][0]
+        lng = places[index][1][1]
+        f = (lat, lng)
+        x.append(f)
+    tree = kdtree.KDTree(x, leafsize=50)    # leafsize => optional
+
+    return tree
+
+
+def find_population(lat, lon, startTime, time, budget, global_price_index):
     if startTime < 9:
         startTime = 9
 
@@ -98,17 +108,21 @@ def find_population(lat, lon, startTime, time, budget):
     cartesian_coord = cartesian(lat, lon)
     lattuide = cartesian_coord[0]
     longtuide = cartesian_coord[1]
+
+    places = get_places(global_price_index)
+    tree = get_tree(places)
+
     # preform the Kdtree to find the nearest places
     closest = tree.query([lattuide, longtuide], 20, p=2)   # display closest
     # print('Closest: \n ', closest)
     #get the indexes of the nearets places in the Xcel sheet
     indcies = closest[1]
-    prog1, totalhours, totalmoney = Program(indcies, cartesian_coord, startTime, time, budget)
+    prog1, totalhours, totalmoney = Program(indcies, cartesian_coord, startTime, time, budget, places)
     programs_list.append(
         {
             "program":prog1,
-            "totalhours":float(totalhours),
-            "totalmoney":float(totalmoney)
+            "totalHours":float(totalhours),
+            "totalMoney":float(totalmoney)
         }
     )
 
@@ -118,7 +132,7 @@ def find_population(lat, lon, startTime, time, budget):
         copy = indcies[1:]
         random.shuffle(copy)
         indcies[1:] = copy
-        prog1, totalhours, totalmoney = Program(indcies, cartesian_coord, startTime, time, budget)
+        prog1, totalhours, totalmoney = Program(indcies, cartesian_coord, startTime, time, budget, places)
 
         print(f'[DEBUG] Program 1: {prog1}')
 
@@ -143,7 +157,7 @@ long = 31.235964
 
 if __name__ == '__main__':
     # this result is the ouput
-    result = find_population(lat, long, 999, time, budget)
+    result = find_population(lat, long, 999, time, budget, 16)
     print(result)
 
 #output is a list conatin 5 programs each program(type:list of {}),total hours,total money
