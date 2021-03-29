@@ -1,7 +1,7 @@
 '''REST API for DUX Trip'''
 import json
 from flask import Flask, request
-from replace_place import remove_place
+from replace_place import replace_place
 
 app = Flask(__name__, template_folder="templates")
 
@@ -9,16 +9,17 @@ app = Flask(__name__, template_folder="templates")
 
 def home():
     '''Home page // only page'''
-    response = {'trip': {}}    # Initiate respnse dict
+    response = {'alternativePlaces': {}}    # Initiate respnse dict
     data = request.json
-    print(f'[DEBUG] data: {data}')
+    # print(f'[DEBUG] data: {data}')
 
     if request.method == 'POST':
         # Read items from POST request
-        program = data['program']
+        program = data['full_program']['program']
         age = data['age']
         nationality = data['nationality']
         index_to_remove = data['index']
+        print(f"Program: {program}")
 
         if age == 'adult' and nationality == 'foreigner':
             global_price = 'foreigner'
@@ -33,7 +34,7 @@ def home():
 
 
         # Get the response i.e. suggested programs
-        response['trip'] = remove_place(global_price, program, index_to_remove)
+        response['alternativePlaces'] = replace_place(global_price, program, index_to_remove)
 
         # Return the JSON objects
         return json.dumps(response, indent=4)
