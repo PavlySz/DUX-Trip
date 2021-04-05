@@ -1,9 +1,6 @@
 import pandas as pd
 
-data = pd.read_csv('museums1.csv')
-
-
-def replace_place(global_price, program, index):
+def replace_place(program, age, nationality, index, museum_type):
     '''
     Replace a place whose index is `index` with three other places
 
@@ -17,6 +14,22 @@ def replace_place(global_price, program, index):
     alternate_places = []
     dist_dict = {}
     num_of_places = 3
+
+    data = pd.read_csv('museums2.csv')
+
+    if museum_type != 'all':
+        data = data[data['type'] == museum_type]
+
+    if age == 'adult' and nationality == 'foreigner':
+        global_price = 'foreigner_adult'
+    elif age == 'adult' and nationality == 'egyptian':
+        global_price = 'egyptian_adult'
+    elif age == 'student' and nationality == 'foreigner':
+        global_price = 'egyptian_student'
+    elif age == 'student' and nationality == 'foreigner':
+        global_price = 'foreigner_student'
+    else:
+        global_price = 'foreigner'
 
     places_in_program = [program[i]['visit'] for i in range(len(program))]
 
@@ -53,7 +66,7 @@ def replace_place(global_price, program, index):
 
         nearest_place_info = data[data['name'] == nearest_place]
         # print(f'[DEBUG] Nearest place info: {nearest_place_info}')
-        duration = nearest_place_info['duration(hour)'].values[0]
+        duration = nearest_place_info['duration'].values[0]
         rating = nearest_place_info['rate'].values[0]
         cost = nearest_place_info[global_price].values[0]
 

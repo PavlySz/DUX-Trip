@@ -1,51 +1,51 @@
 tag,latitude,longitude,name,number_of_ratings,rate,duration,open,close,price,egyptian_adult,egyptian_student,foreigner_adult,foreigner_student,type,status
 Museums,30.007196,31.235327,Foustat Traditional Crafts Center,"
-7 reviews",4.5,0.45,9,18,12,1.33,0.66,13.33,3.33,modern age ,close
+7 reviews",4.5,0.45,9,18,12,1.33,0.66,13.33,3.33,modern age,close
 Museums,30.007747,31.248562,National Museum of Egyptian Civilization NEMC,22 reviews,4,2,9,17,17,1.33,0.66,13.33,3.33,pharaonic,close
 Museums,30.074827,31.306326,October War Panorama,"
-22 reviews",4,1.5,9,17,16,1.33,0.66,13.33,3.33,modern age ,close
+22 reviews",4,1.5,9,17,16,1.33,0.66,13.33,3.33,modern age,close
 Museums,30.03399,31.23344,National Geographic Society Museum,"
 18 reviews",4.5,1,9,17,20,1.33,0.66,13.33,3.33,science,close
 Museums,30.046997,31.233677,The Museum of Egyptian Antiquities,"12,037 reviews",4.5,1.5,9,17,6,1.33,0.66,13.33,3.33,pharaonic,close
-Museums,30.086,31.24571,Umm Kolthoum Museum,34 reviews,4,0.45,9,17,20,1.33,0.66,13.33,3.33,modern age ,close
+Museums,30.086,31.24571,Umm Kolthoum Museum,34 reviews,4,0.45,9,17,20,1.33,0.66,13.33,3.33,modern age,close
 Museums,29.978056,31.1345,Khufu Ship,810 reviews,4.5,0.3,9,18,19,1.33,0.66,13.33,3.33,pharaonic,close
-Museums,30.042871,31.247547,Abdeen Palace Museum,67 reviews,4,2,9,17,20.5,1.33,0.66,13.33,3.33,modern age ,close
+Museums,30.042871,31.247547,Abdeen Palace Museum,67 reviews,4,2,9,17,20.5,1.33,0.66,13.33,3.33,modern age,close
 Museums,30.13671,31.33172,Egyptian Textile Museum,19 reviews,4.5,1,9,17,9.5,1.33,0.66,13.33,3.33,art,close
 Museums,30.065,31.3139,Unknown Soldier Memorial,"
-31 reviews",4,0.45,9,23,25,0,0,0,0,modern age ,open
+31 reviews",4,0.45,9,23,25,0,0,0,0,modern age,open
 Museums,30.052176,31.262556,Bayt Al-Suhaymi,"
-61 reviews",4.5,1,9,17,12.5,1.33,0.66,13.33,3.33,modern age ,close
+61 reviews",4.5,1,9,17,12.5,1.33,0.66,13.33,3.33,modern age,close
 Shopping,30.06273,31.21851,Sami Amin,"
 2 reviews",3,0.45,9,17,10,1.33,0.66,13.33,3.33,art,close
 Museums,30.10372,31.25866,Children's Civilization and Creativity Center,"
-,3 reviews",4.5,0.45,9,17,15,1.33,0.66,13.33,3.33,modern age ,close
+,3 reviews",4.5,0.45,9,17,15,1.33,0.66,13.33,3.33,modern age,close
 Museums,30.16968,31.77346,Railway Museum,"
-7 reviews",3.5,1,9,17,20,1.33,0.66,13.33,3.33,modern age ,close
+7 reviews",3.5,1,9,17,20,1.33,0.66,13.33,3.33,modern age,close
 Museums,30.12445,31.30105,Agricultural Museum,22 reviews,3.5,0.3,9,17,10,1.33,0.66,13.33,3.33,science,close
 Museums,30.14977,31.37096,Ahmed Shawki Museum (Karmat Ibn Hani'),"
-5 reviews",5,0.35,9,17,15,1.33,0.66,13.33,3.33,modern age ,close
-Museums,30.029757,31.261002,Military Museum,35 reviews,3.5,0.5,9,17,14.5,1.33,0.66,13.33,3.33,modern age ,close
+5 reviews",5,0.35,9,17,15,1.33,0.66,13.33,3.33,modern age,close
+Museums,30.029757,31.261002,Military Museum,35 reviews,3.5,0.5,9,17,14.5,1.33,0.66,13.33,3.33,modern age,close
 Museums,29.97755,31.24486,Egyptian Geology Museum,7 reviews,3.5,1,9,17,15,1.33,0.66,13.33,3.33,science,close
 Museums,30.100883,31.3336,Child Museum,"
-5 reviews",5,0.3,9,17,15,1.33,0.66,13.33,3.33,modern age ,close
+5 reviews",5,0.3,9,17,15,1.33,0.66,13.33,3.33,modern age,close
 Museums,29.970385,31.21024,Taha Hussein Museum,"
-10 reviews",4.5,1,9,17,20,1.33,0.66,13.33,3.33,modern age ,close
+10 reviews",4.5,1,9,17,20,1.33,0.66,13.33,3.33,modern age,close
 Museums,30.03101,31.25699,Mostafa Kamel Museum,"
-3 reviews",3,1,9,17,10,1.33,0.66,13.33,3.33,modern age ,close
+3 reviews",3,1,9,17,10,1.33,0.66,13.33,3.33,modern age,close
 Museums,30.10258,31.2543,Mahmoud Mokhtar Museum,4 reviews,3.5,0.5,9,17,17,1.33,0.66,13.33,3.33,art,close
 Museums,30.0552,31.2257,Museum of Islamic Ceramics,12 reviews,3,1,9,17,18.5,1.33,0.66,13.33,3.33,islamic,close
-Museums,30.0375,31.2378,House of the People Beit El-Umma Museum,2 reviews,4.5,0.45,9,17,18,1.33,0.66,13.33,3.33,modern age ,open
-Museums,30.02745,31.22988,El Gawhara (Jewel) Palace Museum,4 reviews,4,0.5,9,17,11,1.33,0.66,13.33,3.33,modern age ,open
+Museums,30.0375,31.2378,House of the People Beit El-Umma Museum,2 reviews,4.5,0.45,9,17,18,1.33,0.66,13.33,3.33,modern age,open
+Museums,30.02745,31.22988,El Gawhara (Jewel) Palace Museum,4 reviews,4,0.5,9,17,11,1.33,0.66,13.33,3.33,modern age,open
 Museums,30.032202,31.253353,El Amir Taz Palace,10 reviews,4,0.45,9,17,10,1.33,0.66,13.33,3.33,islamic,open
-Museums,30.028767,31.229893,Manial Palace Museum,132 reviews,4.5,1,9,17,17.5,1.33,0.66,13.33,3.33,modern age ,close
+Museums,30.028767,31.229893,Manial Palace Museum,132 reviews,4.5,1,9,17,17.5,1.33,0.66,13.33,3.33,modern age,close
 Museums,30.005833,31.230396,The Coptic Museum,301 reviews,4.5,1,9,17,13,1.33,0.66,13.33,3.33,coptic,close
 Museums,30.044697,31.25249,Museum of Islamic Arts,133 reviews,4.5,1,9,17,12,1.33,0.66,13.33,3.33,art,close
-Museums,30.028652,31.250834,Gayer-Anderson Museum (Bayt al-Kiritliya),199 reviews,4.5,0.3,9,17,13,1.33,0.66,13.33,3.33,modern age ,open
-Museums,30.09982,31.35106,Egyptian Air Force Museum,9 reviews,4,0.5,9,17,16,1.33,0.66,13.33,3.33,modern age ,close
+Museums,30.028652,31.250834,Gayer-Anderson Museum (Bayt al-Kiritliya),199 reviews,4.5,0.3,9,17,13,1.33,0.66,13.33,3.33,modern age,open
+Museums,30.09982,31.35106,Egyptian Air Force Museum,9 reviews,4,0.5,9,17,16,1.33,0.66,13.33,3.33,modern age,close
 Museums,30.044724,31.263496,Manzil Zienab Khatoon,17 reviews,4,0.2,9,17,12,1.33,0.66,13.33,3.33,islamic,open
 Sights & Landmarks,29.79321,31.24628,Dahshur,879 reviews,4.5,3,9,17,10,1.33,0.66,13.33,3.33,pharaonic,open
 Sights & Landmarks,30.030916,31.276522,St Simon the Tanner Monastery,40 reviews,4.5,1,9,17,19,0,0,0,0,coptic,open
-Sights & Landmarks,30.045904,31.224277,Cairo Tower,"1,095 reviews",4,1.25,9,23,9.5,1.33,0.66,13.33,3.33,modern age ,open
+Sights & Landmarks,30.045904,31.224277,Cairo Tower,"1,095 reviews",4,1.25,9,23,9.5,1.33,0.66,13.33,3.33,modern age,open
 Sights & Landmarks,30.10042,31.25704,Mosque of Syeda Zainab,"
  43 reviews ",4.5,0.3,9,17,10,0,0,0,0,islamic,open
 Sights & Landmarks,29.997576,31.215628,Pharaonic Village,248 reviews,4,2,9,17,10,1.33,0.66,13.33,3.33,pharaonic,close
@@ -76,7 +76,7 @@ Sights & Landmarks,30.04334,31.33311,Mosque and Khanqah of Shaykhu,"
 1 review",4,1,9,17,16,0,0,0,0,islamic,open
 Sights & Landmarks,30.050064,31.26119,Madrasa of Sultan Barquq,"
  1 review",5,1,9,17,14,1.33,0.66,13.33,3.33,islamic,open
-Sights & Landmarks,30.05339,31.22646,Aisha Fahmi Palace,1 review,5,1.5,9,17,17,1.33,0.66,13.33,3.33,modern age ,close
+Sights & Landmarks,30.05339,31.22646,Aisha Fahmi Palace,1 review,5,1.5,9,17,17,1.33,0.66,13.33,3.33,modern age,close
 Sights & Landmarks,30.17176,31.44877,al-Salih Tala'i Mosque,"
 4 reviews",4,1,9,17,10,0,0,0,0,islamic,open
 Sights & Landmarks,30.05198,31.26277,Sabil Qitas,0 reviews,0,1,9,17,10,0,0,0,0,islamic,open
@@ -105,4 +105,4 @@ Sights & Landmarks,30.042797,31.257696,Bab Zuweila,33 reviews,4.5,1,9,17,11.5,0,
 Sights & Landmarks,30.054686,31.263418,Al-Hakim Mosque,59 reviews,4,1,9,17,5,0,0,0,0,islamic,open
 Sights & Landmarks,30.033144,31.257345,Al Rifai Mosque,157 reviews,4.5,1,9,17,10.5,0,0,0,0,islamic,open
 Sights & Landmarks,30.04569,31.262688,Al-Azhar Mosque,349 reviews,4.5,1.5,9,17,8.5,0,0,0,0,islamic,open
-Sights & Landmarks,30.09111,31.33425,Baron Palace,76 reviews,4,2,9,17,9.5,1.33,0.66,13.33,3.33,modern age ,close
+Sights & Landmarks,30.09111,31.33425,Baron Palace,76 reviews,4,2,9,17,9.5,1.33,0.66,13.33,3.33,modern age,close

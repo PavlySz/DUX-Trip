@@ -12,7 +12,7 @@ python3 flask_rest_api.py
 
  - Run the CURL command and send in the parameters specified above
 ```shell
-curl -i -H "Content-Type: application/json" -X POST -d '{"budget":200, "time": 3, "lat":30.050053, "lng":31.235964, "start_time":9, "age":"adult", "nationality":"egyptian"}' http://localhost:5000/
+curl -i -H "Content-Type: application/json" -X POST -d '{"budget": 200, "time": 3, "lat": 30.050053, "lng": 31.235964, "start_time": 9, "age": "adult", "nationality": "egyptian", "museumType": "modern age"}' http://localhost:5000/trip/recommendPlaces
 ```
 Where:
 
@@ -27,6 +27,8 @@ Where:
     - 'student' or 'adult'
 - `nationality` nationality the user (string)
     - 'egyptian' or 'foreigner'
+- `museumType` type of the museum/place the user wants to visit
+    - valid museum types: ['modern age', 'pharaonic', 'science', 'art', 'islamic', 'coptic', 'all']
 
 
 ### **Output**
@@ -98,7 +100,7 @@ python3 replace_place_rest.py
 
  - Run the CURL command and send in the parameters specified above
 ```shell
-curl -i -H "Content-Type: application/json" -X POST -d '{"program":{program here}, "index": 3,"age":"adult", "nationality":"egyptian"}' http://localhost:8000/
+curl -i -H "Content-Type: application/json" -X POST -d '{"program": {program}, "index": 3, "age": "adult", "nationality": "egyptian", "museumType": "modern age"}' http://localhost:8000/
 ```
 Where:
 
@@ -108,11 +110,13 @@ Where:
     - 'student' or 'adult'
 - `nationality` nationality the user (string)
     - 'egyptian' or 'foreigner'
+- `museumType` type of the museum/place the user wants to visit
+    - valid museum types: ['modern age', 'pharaonic', 'science', 'art', 'islamic', 'coptic', 'all']
 
 ### Example
 #### **Command**
 ```shell
-curl -i -H "Content-Type: application/json" -X POST -d '{"full_program": {"program": [{"from": "9", "to": "10.5", "visit": "The Museum of Egyptian Antiquities", "rating": "4.5", "cost": "0.66"}, {"from": "10.5", "to": "12.0", "visit": "Aisha Fahmi Palace", "rating": "5.0", "cost": "0.66"}, {"from": "12.0", "to": "13.0", "visit": "Museum of Islamic Ceramics", "rating": "3.0", "cost": "0.66"}, {"from": "13.0", "to": "14.25", "visit": "Cairo Tower", "rating": "4.0", "cost": "0.66"}, {"from": "14.25", "to": "14.7", "visit": "House of the People Beit El-Umma Museum", "rating": "4.5", "cost": "0.66"}, {"from": "14.7", "to": "16.7", "visit": "Abdeen Palace Museum", "rating": "4.0", "cost": "0.66"}, {"from": "16.7", "to": "17.7", "visit": "National Geographic Society Museum", "rating": "4.5", "cost": "0.66"}], "totalHours": 8.7, "totalMoney": 4.62}, "nationality": "egyptian", "age": "adult", "index": 3}' http://localhost:8000/
+curl -i -H "Content-Type: application/json" -X POST -d '{"full_program": {"program": [{"from": "9", "to": "10.5", "visit": "The Museum of Egyptian Antiquities", "rating": "4.5", "cost": "0.66"}, {"from": "10.5", "to": "12.0", "visit": "Aisha Fahmi Palace", "rating": "5.0", "cost": "0.66"}, {"from": "12.0", "to": "13.0", "visit": "Museum of Islamic Ceramics", "rating": "3.0", "cost": "0.66"}, {"from": "13.0", "to": "14.25", "visit": "Cairo Tower", "rating": "4.0", "cost": "0.66"}, {"from": "14.25", "to": "14.7", "visit": "House of the People Beit El-Umma Museum", "rating": "4.5", "cost": "0.66"}, {"from": "14.7", "to": "16.7", "visit": "Abdeen Palace Museum", "rating": "4.0", "cost": "0.66"}, {"from": "16.7", "to": "17.7", "visit": "National Geographic Society Museum", "rating": "4.5", "cost": "0.66"}], "totalHours": 8.7, "totalMoney": 4.62}, "nationality": "egyptian", "age": "adult", "index": 3, "museumType": "modern age"}' http://localhost:5000/trip/replacePlaces
 ```
 
 
