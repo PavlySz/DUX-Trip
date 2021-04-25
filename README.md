@@ -20,7 +20,7 @@ Where:
 - `lat` is the latitude of the starting place (str)
 - `time` total time available for the user (int)
 - `budget` total budget available for the user (int)
-- `start_time` start time that the user specifies (int)
+- `startTime` start time that the user specifies (int)
     - ***Note*** if `start_time` is less that `9` it will be automatically
       converted to 9, since all museums start working at 9:00 AM
 - `age` age of the user (string)
@@ -116,7 +116,7 @@ Where:
 ### Example
 #### **Command**
 ```shell
-curl -i -H "Content-Type: application/json" -X POST -d '{"full_program": {"program": [{"from": "9", "to": "10.5", "visit": "The Museum of Egyptian Antiquities", "rating": "4.5", "cost": "0.66"}, {"from": "10.5", "to": "12.0", "visit": "Aisha Fahmi Palace", "rating": "5.0", "cost": "0.66"}, {"from": "12.0", "to": "13.0", "visit": "Museum of Islamic Ceramics", "rating": "3.0", "cost": "0.66"}, {"from": "13.0", "to": "14.25", "visit": "Cairo Tower", "rating": "4.0", "cost": "0.66"}, {"from": "14.25", "to": "14.7", "visit": "House of the People Beit El-Umma Museum", "rating": "4.5", "cost": "0.66"}, {"from": "14.7", "to": "16.7", "visit": "Abdeen Palace Museum", "rating": "4.0", "cost": "0.66"}, {"from": "16.7", "to": "17.7", "visit": "National Geographic Society Museum", "rating": "4.5", "cost": "0.66"}], "totalHours": 8.7, "totalMoney": 4.62}, "nationality": "egyptian", "age": "adult", "index": 3, "museumType": "modern age"}' http://localhost:5000/trip/replacePlaces
+curl -i -H "Content-Type: application/json" -X POST -d '{"fullProgram": {"program": [{"from": "9", "to": "10.5", "visit": "The Museum of Egyptian Antiquities", "rating": "4.5", "cost": "0.66"}, {"from": "10.5", "to": "12.0", "visit": "Aisha Fahmi Palace", "rating": "5.0", "cost": "0.66"}, {"from": "12.0", "to": "13.0", "visit": "Museum of Islamic Ceramics", "rating": "3.0", "cost": "0.66"}, {"from": "13.0", "to": "14.25", "visit": "Cairo Tower", "rating": "4.0", "cost": "0.66"}, {"from": "14.25", "to": "14.7", "visit": "House of the People Beit El-Umma Museum", "rating": "4.5", "cost": "0.66"}, {"from": "14.7", "to": "16.7", "visit": "Abdeen Palace Museum", "rating": "4.0", "cost": "0.66"}, {"from": "16.7", "to": "17.7", "visit": "National Geographic Society Museum", "rating": "4.5", "cost": "0.66"}], "totalHours": 8.7, "totalMoney": 4.62}, "nationality": "egyptian", "age": "adult", "index": 3, "museumType": "modern age"}' http://localhost:5000/trip/replacePlaces
 ```
 
 

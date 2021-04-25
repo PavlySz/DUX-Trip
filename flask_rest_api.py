@@ -4,9 +4,15 @@ from flask import Flask, request
 from trip_main import find_population
 from replace_place import replace_place
 
-# TODO: add museumType
-app = Flask(__name__, template_folder="templates")
+# TODO: Unit testing for budget and time
+# TODO: Exception handling
+# TODO: Load testing
+# TODO: Look for other algorithms
+# TODO:
+    # Get traffic time and save it in columns
+    # Traffic at day and time => columns
 
+app = Flask(__name__, template_folder="templates")
 
 @app.route("/trip/recommendPlaces", methods=['GET', 'POST'])
 def recommend_places():
@@ -15,19 +21,20 @@ def recommend_places():
     data = request.json
 
     print(f'[DEBUG] data: {data}')
-
     if request.method == 'POST':
         # Read items from POST request
-        start_time = int(data['start_time'])
-        budget = int(data['budget'])
-        time = int(data['time'])
+        start_time = int(data['startTime'])
+        budget = int(data['budget'])    # Test large budget
+        time = int(data['time'])        # Test large time
         lat = float(data['lat'])
         lng = float(data['lng'])
         age = data['age'].lower()
         nationality = data['nationality'].lower()
         museum_type = data['museumType'].lower()
 
-        valid_museum_types = ['modern age', 'pharaonic', 'science', 'art', 'islamic', 'coptic', 'all']
+        valid_museum_types = ['modern age', 'pharaonic',\
+            'science', 'art', 'islamic', 'coptic', 'all']
+
         if museum_type not in valid_museum_types:
             return json.dumps({"ERROR": "Invalid museum type",
                                "Valid museum types": f"{valid_museum_types}"})
@@ -49,19 +56,21 @@ def replace_places():
 
     if request.method == 'POST':
         # Read items from POST request
-        program = data['full_program']['program']
+        program = data['fullProgram']['program']
         index_to_remove = data['index']
         age = data['age'].lower()
         nationality = data['nationality'].lower()
         museum_type = data['museumType'].lower()
 
-        valid_museum_types = ['modern age', 'pharaonic', 'science', 'art', 'islamic', 'coptic', 'all']
+        valid_museum_types = ['modern age', 'pharaonic',\
+            'science', 'art', 'islamic', 'coptic', 'all']
         if museum_type not in valid_museum_types:
             return json.dumps({"ERROR": "Invalid museum type",
                                "Valid museum types": f"{valid_museum_types}"})
 
         # Get the response i.e. suggested programs
-        response['alternativePlaces'] = replace_place(program, age, nationality, index_to_remove, museum_type)
+        response['alternativePlaces'] = replace_place(program,\
+            age, nationality, index_to_remove, museum_type)
 
         valid_museum_types = ['modern age', 'pharaonic', 'science', 'art', 'islamic', 'coptic']
         if museum_type.lower() not in valid_museum_types:
